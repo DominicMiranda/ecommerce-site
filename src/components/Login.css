@@ -1,0 +1,26 @@
+.bg-white {
+  background-color: white;
+}
+
+input {
+  background-color: whitesmoke;
+}
+
+#account-details {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+#account-details td,
+#account-details th {
+  border: 0px solid #ddd;
+  padding: 8px;
+  vertical-align: top;
+}
+#account-details tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: black;
+  padding: 0;
+  width: 100%;
+}
+
+.item {
+  color: white;
+  margin: 0 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.search-group {
+  align-items: baseline;
+  display: flex;
+  float: none;
+  position: static;
+  width: 60%;
+}

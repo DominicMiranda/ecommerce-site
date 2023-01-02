@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+.clearfix {
+  overflow: auto;
+}
+.clickable {
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-container {
+  border: 0px solid whitesmoke;
+  min-height: 89vh;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.big-button {
+  height: 40px;
+  min-width: 200px;
+  margin-left: 43%;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  background-color: black;
   color: white;
+  height: 30px;
+  min-width: 70px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
+.float-right {
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.float-left {
+  float: left;
+}
+
+input {
+  display: block;
+  margin-top: 10px;
+  min-width: 98%;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+label {
+  display: block;
+}
+
+.login-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.list-item {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.products-container {
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.page-item {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 5px;
+  display: inline;
+  list-style: none;
+  padding: 5px 10px;
+}
+
+.page-link {
+  text-decoration: none;
 }
